@@ -5,7 +5,7 @@ on-pull-requests:
   script: echo 'this should run on pull requests'
   only:
     - external_pull_requests
-    - [branches]
+  except: [branches]
 
 except-pull-requests:
   script: echo 'this should not run on pull requests'
