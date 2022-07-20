@@ -7,3 +7,5 @@ test-external-push-to-main
 test3
 
 test-commit
+
+test-new-pr
